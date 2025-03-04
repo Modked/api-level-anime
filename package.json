@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node api/index.js"
   },
-  "dependencies": {
+  "optionalDependencies": {
     "canvas": "^2.11.0"
   }
 }
