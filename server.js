@@ -10,7 +10,7 @@ app.get("/user/progress", async (req, res) => {
     const canvas = createCanvas(700, 300);
     const ctx = canvas.getContext("2d");
     
-    const background = await loadImage("https://i.imgur.com/dJZbE1K.jpg");
+    const background = await loadImage("https://files.catbox.moe/aw82td.jpg");
     ctx.drawImage(background, 0, 0, canvas.width, canvas.height);
     
     const userAvatar = await loadImage(avatar);
