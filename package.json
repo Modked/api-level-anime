@@ -2,7 +2,7 @@
   "name": "sasuke-level-api",
   "version": "1.0.0",
   "description": "API لعرض مستوى المستخدم بتصميم مستوحى من ساسكي.",
-  "main": "api/index.js",
+  "main": "index.js",
   "scripts": {
     "start": "node api/index.js"
   },
