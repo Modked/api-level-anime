@@ -1,0 +1,12 @@
+{
+  "name": "sasuke-level-api",
+  "version": "1.0.0",
+  "description": "API لعرض مستوى المستخدم بتصميم مستوحى من ساسكي.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "canvas": "^2.11.0"
+  }
+}
