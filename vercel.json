@@ -1,12 +1,12 @@
 {
-  "version": 2,
   "builds": [
     {
-      "src": "package.json",
-      "use": "@vercel/node"
+      "src": "api/index.js",
+      "use": "@vercel/node",
+      "config": { "includeFiles": ["node_modules/canvas"] }
     }
   ],
   "env": {
-    "NODE_ENV": "production"
+    "PKG_CONFIG_PATH": "/usr/lib/x86_64-linux-gnu/pkgconfig"
   }
 }
